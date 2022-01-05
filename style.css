@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(0, 148, 207);
+    color: white;
+}
+
+.heading {
+    min-height: 20vh;
+    padding-left: 10vw;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+}
+
+.heading>h1 {
+    padding-bottom: 2vh;
+    font-size: 3rem;
+}
+
+.heading>p {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+form {
+    padding-left: 10vw;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+input, select {
+    font-size: 1.5rem;
+    margin-bottom: 2vh;
+    margin-right: 20px;
+    /* padding-left: 20px; */
+    padding: 10px 10px 10px 20px;
+}
+
+#name {
+    margin-left: 10vw;
+}
+
+#email {
+    margin-left: 10vw;
+    width: 38.6vw;
+}
+
+#number {
+    margin-left: 12.3vw;
+    /* width: 10vw; */
+}
+
+[type="number"] {
+    width: 11.9vw;
+}
+
+select {
+    margin-left: 5.3vw;
+    width: 25.4vw;
+}
+
+#message {
+    margin-left: 10.6vw;
+}
+
+hr {
+    margin-top: 5vh;
+    width: 56vw;
+}
+
+.submit-btn {
+    margin-top: 5vh;
+    height: 7vh;
+    width: 15vw;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: 800;
+    background-color: rgb(0, 148, 207);
+    color: white;
+    font-size: 1.3rem;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+    background-color: rgb(0, 59, 168);
+}
