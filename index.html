@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">
     <title>Contact Form</title>
 </head>
 
@@ -36,14 +36,22 @@
 
             <div class="subject">
                 <label for="subject">Message Subject <sup>*</sup></label>
-                <select name="subject" id="subject">
+                <select name="subject" id="subject" required>
                     <option value="other">Other</option>
                 </select>
             </div>
 
             <div class="message">
                 <label for="message">Message<sup>*</sup></label>
-                <textarea name="message" id="message" cols="88" rows="10"></textarea>
+                <textarea name="message" id="message" cols="48" rows="5" required></textarea>
+            </div>
+
+            <div class="verification">
+                <label for="verify">Verification<sup>*</sup></label>
+                <div class="verification-container">
+                    <input type="checkbox" name="verify" id="verify">
+                    I'm not a robot
+                </div>
             </div>
             <hr>
             <button type="submit" class="submit-btn">SUBMIT FORM</button>

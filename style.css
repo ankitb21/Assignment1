@@ -65,7 +65,41 @@ select {
 }
 
 #message {
-    margin-left: 10.6vw;
+    margin-left: 11vw;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+[for="message"] {
+    float: left;
+}
+
+.verification {
+    display: flex;
+}
+
+.verification label {
+    margin-top: 20px;
+}
+
+.verification-container {
+    margin-left: 9.5vw;
+    margin-top: 10px;
+    height: 70px;
+    width: 23vw;
+    background-color: rgb(240, 240, 240);
+    color: black;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.verification-container input{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    margin-top: 15px;
+
 }
 
 hr {
